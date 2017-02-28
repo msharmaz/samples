@@ -19,16 +19,6 @@ int getMathematicalOperation()
     return op;
 }
  
-int calculateResult(int x, int op, int y)
-{
-    return -1; 
-}
- 
-void printResult(int result)
-{
-    cout << "Your result is: " << result << endl;
-}
- 
 int main()
 {
   
