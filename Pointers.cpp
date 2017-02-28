@@ -4,7 +4,7 @@ using namespace std;
 
 int main () {
    int  var = 10;
-   int  *ptr;
+   int  *p;
 
    ptr = &var;
 
@@ -12,12 +12,12 @@ int main () {
    cout << var << endl;
 
 
-   cout << "Address stored in ptr variable: ";
-   cout << ptr << endl;
+   cout << "Address stored in p variable: ";
+   cout << p << endl;
 
 
-   cout << "Value of *ptr variable: ";
-   cout << *ptr << endl;
+   cout << "Value of *p variable: ";
+   cout << *p << endl;
 
    return 0;
 }
